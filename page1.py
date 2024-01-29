@@ -7,7 +7,7 @@ model = joblib.load("model.jbl")
 
 def loan_prediction():
     img1 = Image.open('approved.png')
-    img1 = img1.resize((700, 300))
+    img1 = img1.resize((700, 400))
     st.image(img1, use_column_width=False)
     st.title("Bank Loan Prediction using Machine Learning")
 
