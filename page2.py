@@ -20,6 +20,7 @@ nltk.download('stopwords')
 def chatBot():
     img1 = Image.open('chatbot.png')
     st.image(img1, use_column_width=False)
+    img1 = img1.resize((700, 400))
     st.title('Chatbot')
 
 
